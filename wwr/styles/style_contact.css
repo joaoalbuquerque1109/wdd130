@@ -1,0 +1,138 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0277BD;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0a9396;
+    color: white;
+}
+
+.hero img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Informações de Contato */
+.contact-info {
+    text-align: center;
+    padding: 30px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.contact-info h2 {
+    color: #005f73;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Mapa */
+.map {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.map iframe {
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Funcionários */
+.employees {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 50px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.employees img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+}
+
+/* Formulário */
+.contact-form {
+    text-align: center;
+    background: #FF8F00;
+    padding: 100px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 60px;
+    margin: 20px 0;
+    border: 80px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="radio"] {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-form button {
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form button:hover {
+    background-color: #ca6702;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #0277BD;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}

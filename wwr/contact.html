@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Brazil Rafting Adventures for inquiries, reservations, and support.">
+    <meta name="author" content="João Victor C. de Albuquerque">
+    <title>Contact Us - Brazil Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/style_contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rafting Company Logo" height="200" width="200">
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contact Us</h1>
+        <section id="company-info">
+            <h2>Our Office</h2>
+            <p>Address: 123 Adventure St, Rio de Janeiro, Brazil</p>
+            <p>Phone: +55 21 98765-4321</p>
+            <p>Email: contact@brazilrafting.com</p>
+            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen></iframe>
+        </section>
+        
+        <section id="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Maria José" height="200" width="200">
+                    <figcaption>Maria Eduarda- Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="João Pedro" height="200" width="200">
+                    <figcaption>Antonio Carlos - Safety Instructor</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                </fieldset>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Brazil Rafting Adventures | João Victor C. de Albuquerque</p>
+        <a href="#"><img src="images/Facebook_logo.png" alt="Facebook" height="30"></a>
+        <a href="#"><img src="images/x-twitter.png" alt="Twitter" height="30"></a>
+        <a href="#"><img src="images/Instagram_icon.png" alt="Instagram" height="30"></a>
+        <p><a href="wireframe.png">View Contact Us Wireframe</a></p>
+    </footer>
+</body>
+</html>
